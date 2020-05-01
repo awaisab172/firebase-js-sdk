@@ -6,11 +6,15 @@
     "shell": "firebase experimental:functions:shell",
     "start": "yarn shell",
     "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
+    "logs": "firebase functions:log",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
     "firebase-admin": "8.6.0",
-    "firebase-functions": "3.2.0"
+    "firebase-functions": "3.2.0",
+    "snyk": "^1.316.1"
   },
-  "private": true
+  "private": true,
+  "snyk": true
 }
