@@ -47,11 +47,11 @@
     "@firebase/installations": "0.2.7",
     "@firebase/messaging": "0.5.0",
     "@firebase/polyfill": "0.3.23",
-    "@firebase/storage": "0.3.12",
+    "@firebase/storage": "0.4.1",
     "@firebase/performance": "0.2.19",
-    "@firebase/remote-config": "0.1.0",
+    "@firebase/remote-config": "0.1.30",
     "@firebase/analytics": "0.1.0",
-    "@firebase/util": "0.2.28"
+    "@firebase/util": "0.3.4"
   },
   "devDependencies": {
     "git-rev-sync": "1.12.0",
