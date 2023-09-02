@@ -1,0 +1,18 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > teeny-request > https-proxy-agent:
+        patched: '2023-09-02T16:05:20.760Z'
+        id: SNYK-JS-HTTPSPROXYAGENT-469131
+        path: >-
+          firebase-admin > @google-cloud/storage > @google-cloud/common >
+          teeny-request > https-proxy-agent
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auth-library > gaxios > https-proxy-agent:
+        patched: '2023-09-02T16:05:20.760Z'
+        id: SNYK-JS-HTTPSPROXYAGENT-469131
+        path: >-
+          firebase-admin > @google-cloud/firestore > google-gax >
+          google-auth-library > gaxios > https-proxy-agent
